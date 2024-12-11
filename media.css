@@ -1,0 +1,173 @@
+@media only screen and (min-width:200px) and (max-width:900px) {
+    .main {
+        height: 1000px;
+        background-size: max(1920px, 100vw);
+        width: 940px;
+    }
+
+    .main .box {
+        height: 1000px;
+    }
+
+    header {
+        height: 300px;
+    }
+
+    nav img{
+        width: 300px;
+    }
+
+    main {
+        height: 600px;
+    }
+
+    .footer {
+        height: 0px;
+    }
+
+
+    nav {
+        height: 250px;
+        margin: 0px 0px;
+        gap: 470px;
+    }
+
+    .content h1 {
+        font-size: 4.5rem;
+        font-weight: 700;
+    }
+
+    .content p {
+        font-size: 2rem;
+    }
+
+    .secondcontent h2 {
+        font-size: 2rem;
+    }
+
+    .email{
+        flex-direction: column;
+    }
+
+    button {
+        width: 150px;
+        height: 60px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .nothing{
+        height: 30px;
+    }
+
+    .flex1{
+        font-size: 2.75rem;
+    }
+
+    .selectbox{
+        display: none;
+    }
+
+    .container{
+        width: 855px;
+    }
+
+    .carousel img{
+        width: calc(100% / 3 );
+    }
+
+    .wrapper{
+        padding-left: 70px;
+        padding-top: 250px;
+    }
+
+    .wrapper i{
+        top: 50%;
+    }
+
+    .wrapper i:first-child{
+        left: 30px;
+    }
+
+    .carousel img{
+        height: 360px;
+    }
+
+    .Reasons{
+        font-size: 2.75rem;
+    }
+
+
+    .card{
+        flex-direction: column;
+        padding-top: 25px;
+    }
+
+    .container1{
+        height: 23.5rem;
+        width: 100%;
+    }
+
+    h3{
+        font-size: 2.6rem;
+    }
+
+    h4{
+        font-size:1.8rem ;
+    }
+
+    .FIRST{
+        height: 130px;
+        width: 130px;
+        padding-top: 95px;
+        padding-left: 610px;
+    }
+    
+    .SECOND{
+        height: 130px;
+        width: 130px;
+        padding-top: 35px;
+        padding-left: 610px;
+    }
+    
+    .THIRD{
+        height: 130px;
+        width: 130px;
+        padding-top: 95px;
+        padding-left: 610px;
+    }
+    
+    .FOURTH{
+        height: 130px;
+        width: 130px;
+        padding-top: 55px;
+        padding-left: 610px;
+    }
+
+    .Reasons2{
+        padding-top: 95px;
+        font-size: 2.75rem;
+    }
+
+    .contact-us{
+        padding-left: 110px;
+    }
+
+    .footer1{
+        grid-template-columns: 1fr;
+        padding-left: 110px;
+    }
+
+    .selectbox3{
+        padding-left: 110px;
+    }
+
+    .footer-items{
+        padding-top: 20px;
+    }
+
+    .End span{
+        padding-left: 110px;
+    }
+
+}
